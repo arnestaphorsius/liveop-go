@@ -1,15 +1,15 @@
 package main
 
 import (
-		"github.com/gin-gonic/gin"
-		. "github.com/arnestaphorsius/liveop-go/controllers"
+    "github.com/gin-gonic/gin"
+    . "github.com/arnestaphorsius/liveop-go/controllers"
 )
 
 func main() {
 
-		router := gin.Default()
+    router := gin.Default()
 
-		router.GET("api/objecten", GetObjecten)
+    router.GET("api/objecten", GetObjecten)
 
-		router.Run(":6004")
+    router.Run(":6004")
 }

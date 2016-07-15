@@ -11,5 +11,5 @@ func main() {
 
     router.GET("api/objecten", GetObjecten)
 
-    router.Run(":8040")
+    router.Run(":6001")
 }
